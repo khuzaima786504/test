@@ -1,0 +1,13 @@
+.container{
+    max-width: 300px;
+    margin: 0 auto;
+    display: flex; align-items: center; justify-content: center;
+}
+.box{
+    max-width: 200px;
+    border-radius: 10px;
+    transition: all 0.2s linear;
+}
+.box:hover{
+    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.411);
+}
